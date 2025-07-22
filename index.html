@@ -2,9 +2,10 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Redirecionando...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redirecionando para o WhatsApp...</title>
 
-  <!-- Facebook Pixel Code -->
+  <!-- Pixel do Meta -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -14,24 +15,43 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-
     fbq('init', '2502782483429993'); 
+    fbq('track', 'PageView');
     fbq('track', 'Lead');
   </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2502782483429993&ev=Lead&noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
 
+  <meta http-equiv="refresh" content="2;url=https://wa.me/5567981565301" />
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .box {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #111;
+    }
+    p {
+      color: #444;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-  <h2>Redirecionando para o WhatsApp...</h2>
-  <script>
-    setTimeout(function(){
-      window.location.href = "https://wa.me/5567981565301";
-    }, 2000);
-  </script>
+  <div class="box">
+    <h1>🔒 Redirecionando com segurança...</h1>
+    <p>Em instantes você será direcionado ao WhatsApp para falar com um especialista.</p>
+    <p>Se não for redirecionado automaticamente, <a href="https://wa.me/5567981565301">clique aqui</a>.</p>
+  </div>
 </body>
 </html>
-atualizando o pixel
+
