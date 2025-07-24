@@ -2,10 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fale com um Especialista</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chega de fracassar!</title>
+  <meta name="robots" content="noindex, nofollow" />
 
-  <!-- Pixel do Meta -->
+  <!-- Facebook Pixel -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,72 +16,62 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2502782483429993'); 
+    fbq('init', '2502782483429993');
     fbq('track', 'PageView');
-    fbq('track', 'Lead');
   </script>
-
-  <meta http-equiv="refresh" content="5;url=https://wa.me/5567981565301" />
 
   <style>
     body {
-      background-color: #f2f2f2;
-      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fefefe;
+      font-family: 'Arial Black', Arial, sans-serif;
       text-align: center;
-      padding: 80px 20px;
+      padding: 50px 20px;
     }
-
-    .box {
-      background: white;
-      max-width: 520px;
-      margin: auto;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 0 25px rgba(0,0,0,0.1);
-    }
-
     h1 {
-      font-size: 26px;
-      color: #111;
-      margin-bottom: 15px;
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #ff0000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
-
     p {
-      font-size: 18px;
-      color: #444;
+      font-size: 1.3rem;
       margin-bottom: 25px;
+      line-height: 1.5;
     }
-
-    a.botao {
-      background-color: #25D366;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 18px;
+    .highlight {
+      color: #ffcc00;
       font-weight: bold;
-      display: inline-block;
-      margin-top: 10px;
     }
-
-    .observacao {
-      font-size: 14px;
-      color: #999;
-      margin-top: 20px;
+    .loader {
+      margin: 40px auto 0;
+      border: 8px solid #444;
+      border-top: 8px solid #ffcc00;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(360deg);}
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>⚠️ Essa oportunidade não é para curiosos</h1>
-    <p>Essa solução é exclusiva para homens que estão realmente prontos para resolver o problema de forma definitiva.</p>
-    <p>Se você é um deles, clique no botão abaixo para falar agora com um especialista no WhatsApp.</p>
+  <h1>CANSAU DE SER FRACASSADO?</h1>
+  <p>Chega de desculpas e vergonha. <span class="highlight">Seu problema de desempenho está te destruindo</span> por dentro e você não pode mais ignorar.</p>
+  <p>Esse é o momento de tomar atitude e virar o jogo de vez.</p>
+  <p>Atendimento exclusivo, sigiloso e sem enrolação para homens que querem resultado de verdade.</p>
+  <p>Você será redirecionado direto para um especialista via WhatsApp.</p>
 
-    <a href="https://wa.me/5567981565301" class="botao" onclick="fbq('track', 'Lead');">
-      Falar com um Especialista
-    </a>
+  <div class="loader"></div>
 
-    <p class="observacao">Você será redirecionado automaticamente em até 5 segundos.</p>
-  </div>
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://wa.me/5567981565301";
+    }, 7000);
+  </script>
 </body>
 </html>
