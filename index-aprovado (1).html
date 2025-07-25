@@ -1,41 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Atendimento Sigiloso</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CANSOU DE SER FRACASSADO?</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2502782483429993');
+    fbq('track', 'PageView');
+  </script>
   <style>
     body {
-      background-color: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fefefe;
+      font-family: 'Arial Black', Arial, sans-serif;
       text-align: center;
       padding: 50px 20px;
     }
     h1 {
-      color: #f00;
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #ff0000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
     p {
-      font-size: 1.2rem;
-      margin-top: 20px;
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+      line-height: 1.5;
     }
     .highlight {
-      color: #ff0;
+      color: #ffcc00;
       font-weight: bold;
     }
-    .loading {
-      margin-top: 30px;
-      font-style: italic;
-      opacity: 0.7;
+    .loader {
+      margin: 40px auto 0;
+      border: 8px solid #444;
+      border-top: 8px solid #ffcc00;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(360deg);}
     }
   </style>
-  <script>
-    setTimeout(() => {
-      window.location.href = "https://wa.me/5599999999999";
-    }, 7000);
-  </script>
 </head>
 <body>
   <h1>CANSOU DE SER FRACASSADO?</h1>
@@ -43,6 +62,13 @@
   <p>Esse é o momento de tomar atitude e virar o jogo de vez.</p>
   <p>Atendimento exclusivo, sigiloso e sem enrolação para homens que querem resultado de verdade.</p>
   <p>Você será redirecionado direto para um especialista via WhatsApp.</p>
-  <p class="loading">Redirecionando...</p>
+
+  <div class="loader"></div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://wa.me/5567981565301";
+    }, 7000);
+  </script>
 </body>
 </html>
